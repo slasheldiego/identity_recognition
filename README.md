@@ -1,1 +1,2 @@
 # Identity Recognition using Facenet Features Encoder
+This project tries to setting up an human identity detector based on pre-trained Viola and Jones detector (Haar Features) to face detection and pre-trained FaceNet model (by Hiroki Taniai) to generate encoded features. The key idea is generate Facenet's encoded features of a training dataset and then train a SVM linear model in order to build a identity classifier.
